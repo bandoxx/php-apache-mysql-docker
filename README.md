@@ -1,6 +1,14 @@
 ### Installation
 
 ```
+cp .env.example .env
+```
+
+Setup .env variables
+
+Run:
+
+```
 docker-compose build
 docker-compose up -d
 ```
